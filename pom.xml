@@ -43,8 +43,8 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <preparationGoals>clean verify</preparationGoals>
-                    <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
+                    <projectVersionPolicyId>default</projectVersionPolicyId>
+                    <arguments>-Dgpg.passphrase=${gpg.passphrase} -Dgpg.sign=true</arguments>
                 </configuration>
             </plugin>
             <plugin>
