@@ -43,6 +43,7 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <arguments>-Dgpg.passphrase=${gpg.passphrase} -Dgpg.sign=true</arguments>
                 </configuration>
             </plugin>
             <plugin>
