@@ -4,7 +4,7 @@
 
     <groupId>de.jawumbo</groupId>
     <artifactId>gitmaven</artifactId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.8</version>
     <inceptionYear>2026</inceptionYear>
     <description>This is a test project for git and maven2</description>
 
@@ -29,7 +29,7 @@
 
     <scm>
         <url>https://github.com/Jawumbo/gitmaven</url>
-        <tag>HEAD</tag>
+        <tag>v1.0.8</tag>
         <connection>scm:git:https://github.com/Jawumbo/gitmaven.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/Jawumbo/gitmaven.git</developerConnection>
     </scm>
