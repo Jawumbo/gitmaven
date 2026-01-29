@@ -6,7 +6,7 @@
     <artifactId>gitmaven</artifactId>
     <version>1.0.12-SNAPSHOT</version>
     <inceptionYear>2026</inceptionYear>
-    <description>This is a test project for git and maven2</description>
+    <description>This is a test project for git and maven</description>
 
     <developers>
         <developer>
