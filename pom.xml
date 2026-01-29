@@ -43,9 +43,16 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <projectVersionPolicyId>default</projectVersionPolicyId>
                     <arguments>-Dgpg.passphrase=${gpg.passphrase} -Dgpg.sign=true</arguments>
+                    <preparationGoals>clean verify</preparationGoals>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.scm</groupId>
+                        <artifactId>maven-scm-provider-gitexe</artifactId>
+                        <version>2.1.0</version>
+                    </dependency>
+                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
