@@ -32,8 +32,8 @@
     <scm>
         <url>https://github.com/Jawumbo/gitmaven</url>
         <tag>HEAD</tag>
-        <connection>scm:git:git://github.com/Jawumbo/gitmaven.git</connection>
-        <developerConnection>scm:git:ssh://github.com:Jawumbo/gitmaven.git</developerConnection>
+        <connection>scm:git:https://github.com/Jawumbo/gitmaven.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/Jawumbo/gitmaven.git</developerConnection>
     </scm>
 
     <build>
